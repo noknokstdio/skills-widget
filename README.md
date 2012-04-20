@@ -12,7 +12,7 @@ Allow integrate skills diagrams (based on tutorial from http://tympanus.net/codr
 
 ### Install ###
 
-1. Install Jetpack either via the WordPress.org plugin directory, or by uploading the files to your server.
+1. Install Skills Widget either via the WordPress.org plugin directory, or by uploading the files to your server.
 2. Activate the plugin
 3. Add the widget and configure it
 
