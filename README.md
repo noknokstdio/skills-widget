@@ -3,7 +3,9 @@ skills-widget
 
 #### HTML5 Dinamyc Skills Diagram ####
 
-Allow integrate skills diagrams (based on tutorial from http://tympanus.net/codrops/2011/04/22/animated-skills-diagram/)
+This widget add a HTML5 skills diagram to your sidebar.
+
+Based on work of Marcin Dziewulski in the tutorial http://tympanus.net/codrops/2011/04/22/animated-skills-diagram/.
 
 ### Screenshots ###
 
@@ -13,7 +15,12 @@ Allow integrate skills diagrams (based on tutorial from http://tympanus.net/codr
 ### Install ###
 
 1. Install Skills Widget either via the WordPress.org plugin directory, or by uploading the files to your server.
-2. Activate the plugin
-3. Add the widget and configure it
+2. Activate the plugin through the 'Plugins' menu in Wordpress
+3. Put the widget into one sidebar through the 'Widgets' menu in Wordpress
 
 Have fun!
+
+### ChangeLog ###
+
+## 1.0 ##
+Initial version
