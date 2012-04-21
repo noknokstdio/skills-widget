@@ -9,8 +9,8 @@ Based on work of Marcin Dziewulski in the tutorial http://tympanus.net/codrops/2
 
 ### Screenshots ###
 
-<img src="https://github.com/jlopezcur/skills-widget/raw/master/skills-shot-1.png" />
-<img src="https://github.com/jlopezcur/skills-widget/raw/master/skills-shot-2.png" />
+<img src="https://github.com/jlopezcur/skills-widget/raw/master/screenshot-1.png" />
+<img src="https://github.com/jlopezcur/skills-widget/raw/master/screenshot-2.png" />
 
 ### Install ###
 
@@ -22,5 +22,5 @@ Have fun!
 
 ### ChangeLog ###
 
-## 1.0 ##
+## 0.1.0 ##
 Initial version
