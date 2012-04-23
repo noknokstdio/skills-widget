@@ -7,6 +7,8 @@ This widget add a HTML5 skills diagram to your sidebar.
 
 Based on work of Marcin Dziewulski in the tutorial http://tympanus.net/codrops/2011/04/22/animated-skills-diagram/.
 
+You can see a demo on http://www.noknokstdio.com/
+
 ### Screenshots ###
 
 <img src="https://github.com/noknokstdio/skills-widget/raw/master/screenshot-1.png" />
