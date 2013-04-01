@@ -4,7 +4,7 @@
 
 Plugin Name:  Skills Widget
 Plugin URI:   https://github.com/noknokstdio/skills-widget
-Description:  HTML5 Dinamyc Skills Diagram
+Description:  HTML5 Dynamic Skills Diagram
 Version:      0.1.0
 Author:       Javier López Úbeda
 Author URI:   http://www.noknokstdio.com
@@ -37,7 +37,7 @@ class Skills_Widget extends WP_Widget {
      * Register widget with WordPress.
      */
     public function __construct() {
-        $description = __('HTML5 Dinamyc Skills Diagram', 'skills-widget');
+        $description = __('HTML5 Dynamic Skills Diagram', 'skills-widget');
         parent::__construct(
             'skills_widget', // Base ID
             'Skills', // Name
