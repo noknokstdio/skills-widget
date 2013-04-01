@@ -65,8 +65,8 @@ class Skills_Widget extends WP_Widget {
         echo $before_widget;
         if (!empty($title)) echo $before_title . $title . $after_title;
         
-        ?><div id="diagram">
-        <div class="get" style="display:none;">
+        ?><div id="diagram<?php echo $this->number ?>">
+        <div class="get<?php echo $this->number ?>" style="display:none;">
             <?php foreach ($skills as $skill) : ?>
             <div class="arc">
                 <span class="text"><?php echo $skill['name'] ?></span>
@@ -77,7 +77,7 @@ class Skills_Widget extends WP_Widget {
         </div>
         </div>
 <script type="text/javascript">
-var o = {
+var o<?php echo $this->number ?> = {
     init: function(){
         this.diagram();
     },
@@ -90,10 +90,10 @@ var o = {
         var marginArcs = 5;
         var mainCircleR = width/6;
         var arcStrokeArea = (width/2) - (width/6) - marginArcs;
-        var numberOfArcs = jQuery('.get').find('.arc').length;
+        var numberOfArcs = jQuery('.get<?php echo $this->number ?>').find('.arc').length;
         var arcStrokeWidth = (arcStrokeArea / numberOfArcs) - marginArcs;
         
-        var r = Raphael('diagram', width, height),
+        var r = Raphael('diagram<?php echo $this->number ?>', width, height),
             rad = mainCircleR, //73
             defaultText = '<?php echo $title ?>',
             speed = 250;
@@ -108,7 +108,7 @@ var o = {
         r.customAttributes.arc = function(value, color, rad){
             var v = 3.6*value,
             alpha = v == 360 ? 359.99 : v,
-            random = o.random(91, 240),
+            random = o<?php echo $this->number ?>.random(91, 240),
             a = (random-alpha) * Math.PI/180,
             b = random * Math.PI/180,
             sx = width/2 + rad * Math.cos(b),
@@ -119,7 +119,7 @@ var o = {
             return { path: path, stroke: color }
         }
         
-        jQuery('.get').find('.arc').each(function(i){
+        jQuery('.get<?php echo $this->number ?>').find('.arc').each(function(i){
             var t = jQuery(this), 
                 color = t.find('.color').val(),
                 value = t.find('.percent').val(),
@@ -146,7 +146,7 @@ var o = {
         
     }
 }
-jQuery(function(){ o.init(); });
+jQuery(function(){ o<?php echo $this->number ?>.init(); });
 </script>    
         <?php
         
