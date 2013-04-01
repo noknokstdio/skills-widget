@@ -279,9 +279,9 @@ jQuery(function(){ o<?php echo $this->number ?>.init(); });
         <?php 
     }
 
-} // class Foo_Widget
+} // class Skills_Widget
 
-// register Foo_Widget widget
+// register Skills_Widget widget
 add_action('widgets_init', create_function('', 'register_widget("skills_widget");'));
 
 function skills_widget_init() {
