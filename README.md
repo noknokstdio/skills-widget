@@ -3,6 +3,8 @@ Skills Widgets Wordpress Plugin
 
 Render *multiple* HTML5 radial skill-set diagrams in wordpress.
 
+*** This plugin seems to now be incompatible with a modern WP. :( ***
+
 This is forked from https://github.com/noknokstdio/skills-widget
 which is in turn based on the work of Marcin Dziewulski in
 http://tympanus.net/codrops/2011/04/22/animated-skills-diagram
