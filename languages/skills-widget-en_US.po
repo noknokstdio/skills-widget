@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Skills Widget\n"
+"Project-Id-Version: GB Skills Widget\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-21 17:36+0100\n"
-"PO-Revision-Date: 2012-04-21 17:36+0100\n"
+"PO-Revision-Date: 2013-08-22 22:15-0700\n"
 "Last-Translator: Javier <jlopezcur@gmail.com>\n"
 "Language-Team: Javier López Úbeda <info@noknokstdio.com>\n"
 "Language: \n"
@@ -17,8 +17,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../skills-widget.php:40
-msgid "HTML5 Dinamyc Skills Diagram"
-msgstr "HTML5 Dinamyc Skills Diagram"
+msgid "GB HTML5 Dynamic Skills Diagram"
+msgstr "GB HTML5 Dynamic Skills Diagram"
 
 #: ../skills-widget.php:185
 msgid "Skills"
