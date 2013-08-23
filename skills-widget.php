@@ -8,6 +8,7 @@ Description:  HTML5 Dynamic Skills Diagram
 Version:      0.1.0
 Author:       Javier López Úbeda
 Author URI:   http://www.noknokstdio.com
+Revised:      2013/06 by Gene Boggs to allow multiple widgets.
 
 **************************************************************************
 
