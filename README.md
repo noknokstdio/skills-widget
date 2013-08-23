@@ -10,6 +10,7 @@ which is in turn based on http://raphaeljs.com
 
 ### Install ###
 
+0. Clone this repository.
 1. Make a zip archive file of this directory (from the parent).
 2. Install and activate this zip via the WP Plugin interface.
 3. Add skills widgets to a sidebar!
